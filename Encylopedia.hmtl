@@ -6,8 +6,8 @@
   <body>
     <section id="pagetop">
     <h1> Want to Learn More About Pandas? </h2>
-    <p> <a href = "#footer"> Go to end </a> </p>
     <img src = "https://dcist.com/wp-content/uploads/sites/3/2017/03/3_27_17_tiantian-thumb-640xauto-991328.jpg" style = "width: 30vw" alt = "Panda photo from internet"/>
+    <p> <a href = "#footer"> Go to end </a> </p>
     </section>
     <p> Giant pandas are one of the rarest mammales in the world. Being a previously endangered species, the animal is very protected by conservation efforts across the globe. Their fluffy black and white coat combined with a cute face grasps peoples hearts. </P>
     <h3> Where do they live? </h3>
