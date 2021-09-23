@@ -1,0 +1,26 @@
+
+body{
+  background-color: rgb(250, 250, 300);
+  font-family: fantasy;
+}
+
+h1{
+  font-family: cursive;
+  font-size: 42px;
+}
+
+h3{
+  color: green;
+  font-size: 23px;
+  font-weight: bolder;
+}
+
+#panda{
+  width: 55vw;
+  margin: 0px;
+  padding: 5px;
+  height: 45vh;
+}
+hr{
+  border-style: dashed;
+}
