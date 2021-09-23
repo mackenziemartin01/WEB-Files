@@ -1,0 +1,22 @@
+/*this is a comment*/
+h1{
+  font-size: 50px;
+}
+body {
+  font-family: helvectica;
+  background-color: black;
+  color: white;
+  font-weight: 1000;
+}
+img {
+  width: 25vw;
+  margin: 10px;
+}
+form {
+  margin-left: 20px;
+}
+#top h1{
+    color:rgb(255,200,255);
+    border: solid .5px white;
+    border-radius: 10px;
+}
