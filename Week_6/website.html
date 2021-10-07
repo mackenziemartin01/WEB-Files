@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title> Week Six Homework </title>
+<link rel ="stylesheet" href="styleone.css">
+</head>
+
+<body>
+  <section>
+    <h2> Welcome to my Website! </h2>
+    <hr>
+    <h1> This Website Generates a Quote </h1>
+    <p id= "qtext"> Click the button below to see what quote you get! </p>
+  </section>
+
+<section id = "Color">
+  <button id="mybutton"> New Quote </button>
+</section>
+
+<section>
+  <h1> Do you want another quote? </h1>
+</section>
+
+<section>
+<button id="Yes"> Yes </button>
+<button id= "No"> No </button>
+</section>
+
+
+<script>
+  console.log("javascript working");
+  document.getElementById("Yes").addEventListener("click", buttonClicked);
+  document.getElementById("No").addEventListener("click", heroClicked);
+  function buttonClicked(){
+    alert("have a nice day!");
+  }
+  function heroClicked(){
+    alert ("Find another quote!");
+    document.getElementById ("No").innerHTML = "Click the generator again!";
+  }
+
+  const quotes = ["Die with memories, not dreams","You attract the energy that you put out","Old ways don't open new doors","Self-esteem meaning knowing you are the dream", "Whenever life plants you, bloom with graces"];
+  let quotecount = 0 ;
+
+  document.getElementById('mybutton').addEventListener("click", buttonOne);
+  function buttonOne(){
+    console.log(quotes[quotecount]);
+    document.getElementById("qtext").innerHTML = quotes[quotecount];
+    if(quotecount>5){
+      quotecount = 0
+    }
+    else{
+      quotecount++
+    }
+  }
+
+</script>
+</body>
+</html>
