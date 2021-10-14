@@ -7,9 +7,9 @@
 
 <body>
   <section>
-    <h2> Welcome to my Website! </h2>
+    <h2> Greetings from Halloween Town! </h2>
     <hr>
-    <h1> This Website Generates a Quote: </h1>
+    <h1> This Website Generates a Spooky Quote: </h1>
     <p id= "qtext"> Click the button below to see what quote you get! </p>
   </section>
 
@@ -32,14 +32,14 @@
   document.getElementById("Yes").addEventListener("click", buttonClicked);
   document.getElementById("No").addEventListener("click", heroClicked);
   function heroClicked(){
-    alert("have a nice day!");
+    alert("Have a fangtastic evening!");
   }
   function buttonClicked(){
-    alert ("Find another quote!");
+    alert ("Find another quote if you dare!");
     document.getElementById ("Yes").innerHTML = "Click the generator again!";
   }
 
-  const quotes = ["Die with memories, not dreams","You attract the energy that you put out","Old ways don't open new doors","Self-esteem meaning knowing you are the dream", "Whenever life plants you, bloom with graces", "Live like you are dying"];
+  const quotes = ["Eat, drink and be scary!","Halloween is a real treat.","Have a fang-tastic night.","Have a bootiful Halloween.", "Don't be a scaredy cat.", "I witch you a Happy Halloween."];
   let quotecount = 0 ;
 
   document.getElementById('mybutton').addEventListener("click", buttonOne);
