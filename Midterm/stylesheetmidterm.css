@@ -1,0 +1,49 @@
+body{
+  background-color: #E4FAFF;
+  font-family: "Rhodium Libre";
+}
+
+#title{
+  font-family: "Redressed";
+  font-size: 60px;
+  text-align: center;
+}
+
+.weekdays{
+  flex-grow: 1;
+  width: auto;
+  margin: 3vw;
+}
+
+#Days{
+  display: flex;
+}
+
+button{
+  background-color: #5BC8E0;
+  font-family: "Rhodium Libre";
+  font-size: 19px;
+  margin: 8px;
+  padding: 5px;
+  padding-top: 10px;
+  border-radius: 8px;
+
+}
+
+button:active{
+  background-color: #40A0B5;
+  border: 1px;
+}
+
+button:hover{
+  border: solid black 3px;
+}
+
+hr{
+  border-style: solid;
+}
+
+#takenap, #friends, #yoga, #goforwalk{
+  background-color: #E2FAFF;
+  text-align: center;
+}
