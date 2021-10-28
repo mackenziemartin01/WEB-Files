@@ -43,7 +43,7 @@ hr{
   border-style: solid;
 }
 
-/* #mondayitems, #tuesdayitems, #wednesdayitems, #thursdayitems, #fridayitems, #saturdayitems, #sundayitems{
+#mondayitems, #tuesdayitems, #wednesdayitems, #thursdayitems, #fridayitems, #saturdayitems, #sundayitems{
   background-color: #E2FAFF;
   text-align: center;
 }
