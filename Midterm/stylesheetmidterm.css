@@ -43,7 +43,11 @@ hr{
   border-style: solid;
 }
 
-#takenap, #friends, #yoga, #goforwalk{
-  background-color: #E2FAFF;
-  text-align: center;
+
+.items{
+  display: none;
+}
+
+.shown{
+  display: block;
 }
