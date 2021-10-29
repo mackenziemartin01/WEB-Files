@@ -91,23 +91,23 @@ function dogWalkClicked(){
   document.getElementById("dogwalk").innerHTML = "Done";
 }
 
-document.getElementById("").addEventListener("click", pastaClicked);
-document.getElementById("selfyoga").addEventListener("click", selfYogaClicked);
-document.getElementById("dogwalk").addEventListener("click", dogWalkClicked);
+document.getElementById("recexcersize").addEventListener("click", recClicked);
+document.getElementById("friend").addEventListener("click", friendClicked);
+document.getElementById("tvshow").addEventListener("click", tvshowClicked);
 
-function pastaClicked(){
-  alert ("Make your signature vodka pasta")
-  document.getElementById("pasta").innerHTML = "Done";
+function recClicked(){
+  alert ("Walk over to campus!")
+  document.getElementById("recexcersize").innerHTML = "Done";
 }
 
-function selfYogaClicked(){
-  alert ("Practicing yoga will clense your space")
-  document.getElementById("selfyoga").innerHTML = "Done";
+function friendClicked(){
+  alert ("Go see Leslie!")
+  document.getElementById("friend").innerHTML = "Done"
 }
 
-function dogWalkClicked(){
-  alert ("The golden next door is really cute!")
-  document.getElementById("dogwalk").innerHTML = "Done";
+function tvshowClicked(){
+  alert ("Start binging season three.")
+  document.getElementById("tvshow").innerHTML = "Done";
 }
 
 document.getElementById("walk").addEventListener("click", walkClicked);
@@ -132,4 +132,48 @@ function napClicked(){
 function yogaClicked(){
   alert ("Yoga boosts your mental health.");
   document.getElementById ("yoga").innerHTML = "Done";
+}
+
+
+document.getElementById("activity").addEventListener("click", activityClicked);
+document.getElementById("goout").addEventListener("click", goOutClicked);
+document.getElementById("dinner").addEventListener("click", dinnerClicked);
+
+function activityClicked(){
+  alert ("Go take in the mountains beauty");
+  document.getElementById ("activity").innerHTML = "Done";
+}
+function goOutClicked(){
+  alert ("Go have fun with your friends");
+  document.getElementById ("goout").innerHTML = "Done";
+}
+
+function dinnerClicked(){
+  alert ("Go to Pasta Jays");
+  document.getElementById ("dinner").innerHTML = "Done";
+}
+
+
+document.getElementById("homework").addEventListener("click", homeworkClicked);
+document.getElementById("grocery").addEventListener("click", groceryClicked);
+document.getElementById("bedding").addEventListener("click", beddingClicked);
+document.getElementById("journal").addEventListener("click", journalClicked);
+
+function homeworkClicked(){
+  alert ("Get ahead so that the week isn't as stressful.");
+  document.getElementById ("homework").innerHTML = "Done";
+}
+function groceryClicked(){
+  alert ("Get food so that you can eat healthy.");
+  document.getElementById ("grocery").innerHTML = "Done";
+}
+
+function beddingClicked(){
+  alert ("Fresh sheets equals a good nights sleep");
+  document.getElementById ("bedding").innerHTML = "Done";
+}
+
+function journalClicked(){
+  alert ("Reflect on what you are grateful for.");
+  document.getElementById ("journal").innerHTML = "Done";
 }
