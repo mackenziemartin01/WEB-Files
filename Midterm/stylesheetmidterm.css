@@ -7,6 +7,8 @@ body{
   font-family: "Redressed";
   font-size: 60px;
   text-align: center;
+  background-color: #5BC8E0;
+  margin: 20px;
 }
 
 .weekdays{
@@ -44,7 +46,7 @@ hr{
 }
 
 #mondayitems, #tuesdayitems, #wednesdayitems, #thursdayitems, #fridayitems, #saturdayitems, #sundayitems{
-  background-color: #E2FAFF;
+  background-color: #B8F2FF;
   text-align: center;
 }
 
