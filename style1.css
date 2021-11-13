@@ -1,106 +1,142 @@
-
-body{
-  background-color:	#FFECD6;
-  font-family:serif;
-  color: black
-
+@media screen and (max-width: 750px){
+  body{
+    background-color:	#fad0a0;
+    font-family: serif;
+    font-size: 1rem;
+    color: black;
+  }
 }
 
-h1{
-  font-family: cursive;
-  font-size: 42px;
-  color: black;
+@media screen and (min-width: 751px){
+  body{
+    background-color:	#FFECD6;
+    font-family: serif;
+    font-size: 1rem;
+    color: black;
+  }
 }
 
-h2{
-  color: #399700;
-  font-size: 23px;
-  font-weight: bolder;
-  font-family: fantasy;
-}
+    h1{
+      font-family: cursive;
+      font-size: 42px;
+      color: black;
+    }
 
-#panda{
-  width: 55vw;
-  margin: 0px;
-  padding: 5px;
-  height: 45vh;
-}
+    h2{
+      color: #399700;
+      font-size: 23px;
+      font-weight: bolder;
+      font-family: fantasy;
+    }
 
-#paragraphone {
-  border: solid #399700 3px;
-  background-color: #FFF8E7;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
+    #panda{
+      width: 55vw;
+      margin: 0px;
+      padding: 5px;
+      height: 45vh;
+    }
 
-#paragraphtwo {
-  border: solid #399700 3px;
-  background-color: #FFF8E7;
-  padding-left: 40px;
-  padding-right: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
+    #paragraphone {
+      border: solid #399700 3px;
+      background-color: #FFF8E7;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
 
-#two{
-  color: green;
-}
+    #container {
+      border: solid #399700 3px;
+      background-color: #FFF8E7;
+      padding-left: 40px;
+      padding-right: 25px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
 
-hr{
-  border-style: dashed;
-}
+    #two{
+      color: green;
+    }
 
-button{
-  background-color: #FFF8E7;
-  font-family: "Bebas Neue";
-  font-size: 30px;
-  margin: 10px;
-  padding: 7px 15px;
-}
+    hr{
+      border-style: dashed;
+    }
 
-button:active{
-  background-color: #FFDAC0;
-  color: black;
-}
+    button{
+      background-color: #FFF8E7;
+      font-family: "Bebas Neue";
+      font-size: 30px;
+      margin: 10px;
+      padding: 7px 15px;
+    }
 
-button:hover{
-  border: solid #F26600 3px;
-}
+    button:active{
+      background-color: #FFDAC0;
+      color: black;
+    }
+
+    button:hover{
+      border: solid #F26600 3px;
+    }
 
 
-a:link{
-  color: purple;
-}
+    a:link{
+      color: purple;
+    }
 
 
-a:hover{
-  font-size:150%;
-  color: blue;
-}
+    a:hover{
+      font-size:150%;
+      color: blue;
+    }
 
-a:active{
-  color: #C1008B;
-}
+    a:active{
+      color: #C1008B;
+    }
 
-#specialbutton {
-  border: 1px solid black;
-  Border-radius: 3px;
-  background-color: #FFF8E7;
-  text-decoration: none;
-  margin: 10px;
-  padding: 7px 15px;
-}
+    #specialbutton {
+      border: 1px solid black;
+      Border-radius: 3px;
+      background-color: #FFF8E7;
+      text-decoration: none;
+      margin: 10px;
+      padding: 7px 15px;
+    }
 
-#specialbutton:hover{
-  text-decoration: underline;
-  color: black;
-  border: solid #C50F90 3px;
-}
+    #specialbutton:hover{
+      text-decoration: underline;
+      color: black;
+      border: solid #C50F90 3px;
+    }
 
-#specialbutton:active{
-  text-decoration: underline;
-  color: black;
-  background-color: #FFBFBF;
-}
+    #specialbutton:active{
+      text-decoration: underline;
+      color: black;
+      background-color: #FFBFBF;
+    }
+
+  #container{
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+    grid-template-rows: auto;
+    grid-template-areas: "one" "two" "three"
+    text-align: center;
+  }
+
+    #p1{
+      grid-area: "one";
+    }
+
+    #p2{
+      grid-area: "two";
+    }
+
+    #p3{
+      grid-area: "three";
+    }
+
+
+    .column{
+      padding: 5px;
+      margin: 5px;
+    }

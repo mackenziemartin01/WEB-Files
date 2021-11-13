@@ -1,0 +1,24 @@
+html h2{
+  font-size: 50px;
+}
+
+body h2{
+  font-size: 50px;;
+}
+
+body{
+  width: 50vw;
+}
+
+div{
+  background-color: pink;
+  width: 50%;
+}
+
+span{
+  font-size: 2em;
+}
+
+P{
+  font-size: 32px;
+}
