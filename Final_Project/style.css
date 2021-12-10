@@ -1,5 +1,6 @@
 #headerbuttons{
-  background-color: #F19679;
+  background-color: #eba38d;
+  border: 3px solid #543b24;
   margin-top: 0px;
   padding: 10px;
   text-align: right;
@@ -9,6 +10,17 @@
 body{
   background-color: #FFD8C9;
   font-family: "Playfair Display";
+  background-size: 1665px;
+}
+
+.SectionHeaders{
+  font-family: "Libre Baskerville";
+  background-color: #F4BEAE;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
 }
 
 #coverimg{
@@ -18,6 +30,7 @@ body{
 
 #intro{
   background-color: #D99F89;
+  border: 2px solid #b0816f;
   font-size: 14px;
   padding: 25px;
   text-align: center;
@@ -33,7 +46,7 @@ button{
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 6px;
-  border-color: black;
+  border-color: #543b24;
 }
 
 button:active{
@@ -43,28 +56,28 @@ button:active{
 
 
 button:hover{
-  border: solid black 3px;
+  border: solid #543b24 3px;
 }
 
 a:before{
-  color: black;
+  color: #543b24;
 }
 
 a:link{
-  color: black;
+  color: #543b24;
 }
 
 a:hover{
   font-size:110%;
-  color: black;
+  color: #543b24;
 }
 
 a:active{
-  color: black;
+  color: #3d2a18;
 }
 
-a:after{
-  color: black;
+a:visited{
+  color: #3d2a18;
 }
 
 
@@ -85,4 +98,31 @@ a:after{
 
 #emailbutton, #phonebutton{
   font-size: 12px;
+}
+
+
+#workintro{
+  background-color: #F4BEAE;
+  background-blend-mode: lighten;
+  text-align: center;
+}
+
+#descriptions{
+  font-size: 13px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#workingone{
+  text-align: center;
+  padding-top: 20px;
+  display: flex;
+}
+
+.container {
+  background-color: #F1B39C;
+  border: 3px solid #543b24;
+  padding: 30px 30px;
+  max-width: 100vw;
+  margin-top: 10px;
 }
