@@ -17,6 +17,7 @@ body{
   background-color: #FFD8C9;
   font-family: "Playfair Display";
   background-size: 1665px;
+  background-image: url("Assets/Background.png");
 }
 
 .SectionHeaders{
@@ -34,12 +35,16 @@ body{
   padding-bottom: 5px;
 }
 
-.dropitems{
-  display: none;
-}
-
-.shown{
-  display: block;
+.button{
+  background-color: #F1B39C;
+  font-family: "Libre Baskerville";
+  font-size: 19px;
+  margin: 6px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+  border: 1px solid #543b24;
 }
 
 #coverimg{
@@ -56,28 +61,6 @@ body{
   margin-top: 30px;
 }
 
-button{
-  background-color: #F1B39C;
-  font-family: "Libre Baskerville";
-  font-size: 19px;
-  margin: 6px;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 6px;
-  border-color: #543b24;
-}
-
-button:active{
-  background-color: #DD7E60;
-  border: 1px;
-}
-
-
-button:hover{
-  border: solid #543b24 3px;
-}
-
 a:before{
   color: #543b24;
 }
@@ -89,10 +72,12 @@ a:link{
 a:hover{
   font-size:110%;
   color: #543b24;
+  border: solid #543b24 3px;
 }
 
 a:active{
-  color: #3d2a18;
+  background-color: #DD7E60;
+  border: solid #543b24 3px;
 }
 
 a:visited{
